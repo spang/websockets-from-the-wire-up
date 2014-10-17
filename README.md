@@ -10,3 +10,6 @@
 	python ws_server.py
 	# start packet capture
 	sudo tcpdump -i lo -s0 tcp port 8765 -w output.dump
+	# start up the client and interact
+	python ws_client.py
+	# kill your tcpdump and server when you're done :)
