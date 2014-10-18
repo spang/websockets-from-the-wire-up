@@ -1,0 +1,3 @@
+[submodule "browserquest/src"]
+	path = browserquest/src
+	url = git://github.com/mozilla/BrowserQuest.git
