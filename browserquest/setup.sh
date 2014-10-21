@@ -1,10 +1,13 @@
 #!/bin/bash
 
 apt-get update
-apt-get install -y nginx nodejs
+apt-get install -y nginx nodejs npm git
 
 # have nodejs package provide /usr/bin/node (required for some scripts)
 sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10
+
+# just use stock settings
+cp /vagrant/src/server/config_local.json-dist /vagrant/src/server/config_local.json
 
 # configure settings for client js app
 echo '{ "host": "192.168.33.10/ws/", "port": 80 }' > /vagrant/src/client/config/config_build.json
@@ -18,3 +21,7 @@ sudo ln -s /vagrant/nginx-browserquest.conf /etc/nginx/sites-available/browserqu
 sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/browserquest /etc/nginx/sites-enabled/browserquest
 sudo service nginx restart
+
+pushd /vagrant/src/server
+npm install -d
+popd
