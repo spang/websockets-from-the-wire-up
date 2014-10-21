@@ -21,10 +21,25 @@ for websockets continues to evolve very quickly.
 
 ## To set up SocketIO chat application
 
-	# cd socketio
+	cd socketio
 	source bin/activate
 	# la la la wait for gevent to compile...
 	pip install -r requirements.txt
 	# start the server
 	python chat_server.py
 	# proxy behind nginx for production-like environment
+
+## To set up BrowserQuest under nginx
+
+	cd browserquest
+	vagrant up
+	# wait patiently...
+	vagrant ssh
+	cd /vagrant/src && node server/js/main.js
+	# go to 192.168.33.10 in a browser and play!
+
+## Credits
+
+* Mozilla & Little Workshop, the folks behind http://browserquest.mozilla.org/
+* https://openclipart.org/ (web server clipart)
+* http://www.wikipedia.org/ (various images and background info)
