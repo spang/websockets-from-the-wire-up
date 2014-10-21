@@ -43,3 +43,6 @@ for websockets continues to evolve very quickly.
 * Mozilla & Little Workshop, the folks behind http://browserquest.mozilla.org/
 * https://openclipart.org/ (web server clipart)
 * http://www.wikipedia.org/ (various images and background info)
+* Slides were created in https://www.haikudeck.com/ :)
+* Browser support data from http://caniuse.com/websockets
+* Average HTTP header size from http://dev.chromium.org/spdy/spdy-whitepaper
