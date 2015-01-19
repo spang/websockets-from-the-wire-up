@@ -2,8 +2,10 @@
 
 Unfortunately, my two different example apps require two entirely different
 stacks---one which has few dependencies and is easy to run on the command line,
-and one which is easy to deploy behind nginx. The Python library support
-for websockets continues to evolve very quickly.
+and one which is a much more fully featured production example that is fun
+to play around with.
+
+The Python library support for websockets continues to evolve very quickly.
 
 ## To reproduce websocket_simple.dump
 
@@ -43,6 +45,7 @@ for websockets continues to evolve very quickly.
 * Mozilla & Little Workshop, the folks behind http://browserquest.mozilla.org/
 * https://openclipart.org/ (web server clipart)
 * http://www.wikipedia.org/ (various images and background info)
-* Slides were created in https://www.haikudeck.com/ :)
+* Slides were created with https://www.haikudeck.com/ :)
 * Browser support data from http://caniuse.com/websockets
 * Average HTTP header size from http://dev.chromium.org/spdy/spdy-whitepaper
+* Beej's Guide to Network Programming: http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html#theory and Beej's Guide to UNIX IPC: http://beej.us/guide/bgipc/output/html/multipage/unixsock.html
