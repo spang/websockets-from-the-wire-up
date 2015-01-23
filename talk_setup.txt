@@ -1,0 +1,25 @@
+To set up to give this talk...
+
+[] export slides to LibreOffice, then PDF (don't present from LO since it's
+   hard to resume after switching to a terminal)
+[] change your terminal profile to "Presentation" (solarized colourscheme
+   looks TERRIBLE on a projector)
+[] bring up ws_server.py (fg) and ws_client.py (bg) in vim (not in split mode
+   because it's too wide)
+[] open websocket_simple.dump in wireshark
+[] do `vagrant up` in `browserquest`, and `cd /vagrant` and fire up `node
+   server/js/main.js`
+
+Beforehand, review these things to get in the right brain-space:
+
+[] the public notes on the talk (in HaikuDeck)
+[] UNIX sockets
+[] websocket packet layout, details about opcodes, etc. (all in RFC6455)
+[] how websockets deal with firewalls and proxies (details about mask)
+[] meditate for 20min, focusing on long, slow inhales and exhales. helps with
+   the ums and uhs and calms responses to questions.
+
+And don't forget to practice the talk in chunks (intro, demos, conclusion)
+and at least once all the way through during the week leading up. :) Say the
+actual words you will say!  Make eye contact and, when explaining something,
+speak to a single person. Pause.
