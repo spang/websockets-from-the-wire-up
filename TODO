@@ -4,6 +4,7 @@
   - practice and get the intro really simple and tight, limit it to 5-10min
     before you dive into examples
   - combine slides for me+company intro, limit to 2min
+  - 38 slides is more than 1 slide/minute :(
 
 * add one quick slide mentioning how websocket clients work in JS (maybe have
   the client for the example be a JS client rather than a python client)

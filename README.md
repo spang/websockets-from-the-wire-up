@@ -7,6 +7,8 @@ to play around with.
 
 The Python library support for websockets continues to evolve very quickly.
 
+Slides are [online here](https://www.haikudeck.com/websockets-from-the-wire-up-uncategorized-presentation-hpgTVbcYia).
+
 ## To reproduce websocket_simple.dump
 
 	# activate Python 3 venv
